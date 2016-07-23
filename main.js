@@ -1,10 +1,10 @@
 var prompt = require('prompt');
 var Word = require('./word.js');
-
+console.log(Word)
 prompt.start();
 
 game = {
-	wordBank : ["heart and soul", "relax", "burning up", "manic monday", "into the groove", "invisible touch", "rebel yell"],
+	wordBank : ["relax"],
 	wordsWon : 0,
 	guessesRemaining : 10, //per word
 	currentWrd : null, //the word object
